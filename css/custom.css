@@ -22,24 +22,142 @@ section {
   font-weight: normal;
 }
 
-.logo {
-  position: absolute;
-  left: 8.89%;
-  right: 62.99%;
-  top: 0.59%;
-  bottom: 97.73%;
+@media (min-width: 992px) {
+  .logo {
+    position: absolute;
+    left: 8.89%;
+    right: 62.99%;
+    top: 0.59%;
+    bottom: 97.73%;
 
-  font-family: Chango;
+    font-family: Chango;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 60px;
+
+    /* or 130% */
+    letter-spacing: -0.04em;
+    font-feature-settings: 'ss01' on;
+
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 38%;
+
+
+    font-family: Chango;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+
+    /* or 130% */
+    letter-spacing: -0.04em;
+    font-feature-settings: 'ss01' on;
+
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 992px) {
+  .bubbles-background {
+    background-image: url('../img/bubbles.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: 275px;
+  }
+}
+
+.chat-bubble-even {
+  position: relative;
+  background-image: url('../img/chat-bubble-1.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 280px;
+  width: 400px;
+}
+
+.chat-bubble-odd {
+  position: relative;
+  background-image: url('../img/chat-bubble-2.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 280px;
+  width: 400px;
+}
+
+.chat-bubble-text {
+  position: relative;
+  top: 48%;
+  margin-left: 2%;
+  margin-right: 2%;
+  transform: translateY(-50%);
+
+  font-family: Lato;
   font-style: normal;
-  font-weight: normal;
-  font-size: 46px;
-  line-height: 60px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
 
-  /* or 130% */
+  /* or 108% */
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #323232;
+}
+
+.hand-phone-1 {
+  background-image: url('../img/hand-phone-1.png');
+  background-repeat: no-repeat;
+  width: 256px;
+  height: 255.6px;
+}
+
+.hand-phone-2 {
+  position: relative;
+  background-image: url('../img/hand-phone-2.png');
+  background-repeat: no-repeat;
+  width: 256px;
+  height: 255.6px;
+}
+
+.hand-phone-3 {
+  position: relative;
+  background-image: url('../img/hand-phone-3.png');
+  background-repeat: no-repeat;
+  width: 256px;
+  height: 255.6px;
+}
+
+.hand-phone-description {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+
+  /* or 125% */
   letter-spacing: -0.04em;
   font-feature-settings: 'ss01' on;
 
-  color: #FFFFFF;
+  color: #FDFDFD;
+}
+
+.how-it-works-text {
+  margin-top: 10%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 45px;
+
+  /* or 88% */
+  letter-spacing: -0.04em;
 }
 
 /* Navbar */
@@ -53,6 +171,7 @@ section {
 /* About */
 
 .device-wrapper {
+  position: relative;
   max-width: 240px;
 }
 
