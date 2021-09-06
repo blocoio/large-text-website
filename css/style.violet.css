@@ -1078,7 +1078,6 @@ section {
 
 .footer-link:hover, .footer-link:focus {
   color: #FFFFFF;
-  text-decoration: none;
 }
 
 .list-check {
@@ -1153,7 +1152,7 @@ section {
 .scropll-top-btn:hover, .scropll-top-btn:focus {
   color: #fff;
   text-decoration: none;
-  background: #724381;
+  background: #FC6E47;
 }
 
 .device-wrapper {
@@ -1380,7 +1379,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-link:hover {
-  color: #633b70;
+  color: #FC6E47;
   text-decoration: underline;
 }
 
@@ -1394,14 +1393,14 @@ STYLE SWITCHER FOR DEMO
 
 .btn-primary {
   color: #fff;
-  background-color: #F9B88E ;
-  border-color: #F9B88E;
+  background-color: #FC6E47 ;
+  border-color: #FC6E47;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #7a4889;
-  border-color: #724381;
+  background-color: #F9B88E;
+  border-color: #F9B88E;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -1417,7 +1416,7 @@ STYLE SWITCHER FOR DEMO
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #724381;
+  background-color: #FC6E47;
   border-color: #6b3f78;
 }
 
@@ -1994,7 +1993,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #633b70;
+  color: #FC6E47;
   text-decoration: underline;
 }
 
@@ -2179,7 +2178,7 @@ mark,
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #724381 !important;
+  color: #FC6E47 !important;
 }
 
 /*
@@ -2217,7 +2216,7 @@ a.text-primary:hover, a.text-primary:focus {
 
 .page-link:hover {
   z-index: 2;
-  color: #633b70;
+  color: #FC6E47;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -2271,7 +2270,7 @@ a.text-primary:hover, a.text-primary:focus {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #724381 !important;
+  background-color: #FC6E47 !important;
 }
 
 .bg-secondary {
@@ -2381,7 +2380,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #724381 !important;
+  color: #FC6E47 !important;
 }
 
 .text-secondary {
@@ -2448,7 +2447,7 @@ a.text-dark:hover, a.text-dark:focus {
 .badge-primary[href]:hover, .badge-primary[href]:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #724381;
+  background-color: #FC6E47;
 }
 
 .badge-secondary {
