@@ -19,6 +19,12 @@ section {
   text-align:center;
 }
 
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -119,7 +125,7 @@ section {
   font-family: Lato;
   font-style: italic;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 50px;
 
   /* or 125% */
