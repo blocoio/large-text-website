@@ -1152,7 +1152,7 @@ section {
 .scropll-top-btn:hover, .scropll-top-btn:focus {
   color: #fff;
   text-decoration: none;
-  background: #FC6E47;
+  background: #F2994A;
 }
 
 .device-wrapper {
@@ -1379,7 +1379,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-link:hover {
-  color: #FC6E47;
+  color: #F2994A;
   text-decoration: underline;
 }
 
@@ -1392,9 +1392,9 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #FC6E47 ;
-  border-color: #FC6E47;
+  color: #000;
+  background-color: #F2994A ;
+  border-color: #F2994A;
 }
 
 .btn-primary:hover {
@@ -1416,7 +1416,7 @@ STYLE SWITCHER FOR DEMO
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #FC6E47;
+  background-color: #F2994A;
   border-color: #6b3f78;
 }
 
@@ -1993,7 +1993,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #FC6E47;
+  color: #F2994A;
   text-decoration: underline;
 }
 
@@ -2178,7 +2178,7 @@ mark,
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #FC6E47 !important;
+  color: #F2994A !important;
 }
 
 /*
@@ -2216,7 +2216,7 @@ a.text-primary:hover, a.text-primary:focus {
 
 .page-link:hover {
   z-index: 2;
-  color: #FC6E47;
+  color: #F2994A;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -2270,7 +2270,7 @@ a.text-primary:hover, a.text-primary:focus {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #FC6E47 !important;
+  background-color: #F2994A !important;
 }
 
 .bg-secondary {
@@ -2380,7 +2380,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #FC6E47 !important;
+  color: #F2994A !important;
 }
 
 .text-secondary {
@@ -2447,7 +2447,7 @@ a.text-dark:hover, a.text-dark:focus {
 .badge-primary[href]:hover, .badge-primary[href]:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #FC6E47;
+  background-color: #F2994A;
 }
 
 .badge-secondary {

@@ -52,7 +52,8 @@ section {
   .logo {
     position: absolute;
     top: 10px;
-    left: 38%;
+    text-align: center;
+    left: 18%;
 
 
     font-family: Chango;
@@ -113,29 +114,6 @@ section {
   letter-spacing: -0.01em;
 
   color: #323232;
-}
-
-.hand-phone-1 {
-  background-image: url('../img/hand-phone-1.png');
-  background-repeat: no-repeat;
-  width: 256px;
-  height: 255.6px;
-}
-
-.hand-phone-2 {
-  position: relative;
-  background-image: url('../img/hand-phone-2.png');
-  background-repeat: no-repeat;
-  width: 256px;
-  height: 255.6px;
-}
-
-.hand-phone-3 {
-  position: relative;
-  background-image: url('../img/hand-phone-3.png');
-  background-repeat: no-repeat;
-  width: 256px;
-  height: 255.6px;
 }
 
 .hand-phone-description {
