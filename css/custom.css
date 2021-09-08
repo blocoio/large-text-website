@@ -105,8 +105,7 @@ section {
 
   font-family: Lato;
   font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 28px;
 
   /* or 108% */
@@ -120,7 +119,7 @@ section {
   font-family: Lato;
   font-style: italic;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 28px;
   line-height: 50px;
 
   /* or 125% */
@@ -135,7 +134,7 @@ section {
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 45px;
 
   /* or 88% */
@@ -143,12 +142,12 @@ section {
 }
 
 .what-can-you-do-text {
-  width: 90%;
-  margin-left: 5%;
+  width: 76%;
+  margin-left: 10%;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
-  font-size: 34px;
+  font-size: 24px;
   line-height: 41px;
   letter-spacing: -0.04em;
   font-feature-settings: 'ss01' on;
