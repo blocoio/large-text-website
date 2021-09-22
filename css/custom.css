@@ -32,6 +32,10 @@ section {
   font-weight: normal;
 }
 
+.btn:focus {
+  color: white;
+}
+
 @media (min-width: 992px) {
   .logo {
     position: absolute;
