@@ -1958,11 +1958,8 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 28px;
   
-  /* or 118% */
-  letter-spacing: -0.01em;
-
   /* Серый 2 */
   color: #FFFFFF;
   background-color: #005A62;
@@ -2029,7 +2026,7 @@ h6,
 
 h1,
 .h1 {
-  font-family: Chango;
+  font-family: OpenSauceOneSemiBold;
   font-style: normal;
   font-weight: normal;
   font-size: 42px;
